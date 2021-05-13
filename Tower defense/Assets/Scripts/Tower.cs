@@ -6,8 +6,8 @@ public class Tower : MonoBehaviour
 
     [Header("Attributes")]
     public float range = 400;
-    public int damage = 10;
-    public float fireRate = 1;
+    public int damage = 20;
+    public float fireRate = 1.1f;
     private float firecountdown = 0;
 
     [Header("Unity Setup")]

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class Enermy : MonoBehaviour
 {
 
-    public float speed = 50f;
+    public float speed = 30f;
     public int hp = 100;
-    public int gold = 10;
+    public int gold = 20;
     public GameObject healthBar;
     [Range(0,1)]
     public float armor = 0;
