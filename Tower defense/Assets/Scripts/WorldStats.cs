@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class WorldStats : MonoBehaviour
 {
     public static int HP = 10;
-    public static int gold = 500;
+    public static int gold = 350;
     public static int level = 0;
 
     public Text hptext;
@@ -27,7 +27,7 @@ public class WorldStats : MonoBehaviour
     public static void reset()
     {
         HP = 10;
-        gold = 500;
+        gold = 350;
         level = 0;
     }
 

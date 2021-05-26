@@ -7,7 +7,7 @@ public class Enermy : MonoBehaviour
 
     public float speed = 30f;
     public int hp = 100;
-    public int gold = 20;
+    public int gold = 25;
     public GameObject healthBar;
     [Range(0,1)]
     public float armor = 0;
